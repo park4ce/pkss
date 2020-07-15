@@ -1,1 +1,117 @@
+//park style sheets 
+*{
+    box-sizing: border-box;
+}
 
+//###View
+//dapth
+@depth-box-shadow:rgba(0,0,0,0.9);
+
+
+//###Layout
+//div grid Column
+@column-gutter-width:12px;
+.pk-columns {
+    margin-left:-@column-gutter-width;
+    margin-right: -@column-gutter-width;
+    &::after,&::before {
+        display: table;
+        content: "";
+    }
+
+    .pk-col-1 {
+        width: 8.333332%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-2 {
+        width: 16.666664%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-3 {
+        width: 25%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-4 {
+        width: 33.333333%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-5 {
+        width: 41.666667%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-6 {
+        width: 50%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-7 {
+        width: 58.333333%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-8 {
+        width: 66.666667%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-9 {
+        width: 75%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-10 {
+        width: 83.333333%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-11 {
+        width: 91.6666667%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+    
+    .pk-col-12 {
+        width: 100%;
+        float:left;
+        min-height: 1px;
+        padding-left: @column-gutter-width;
+        padding-right: @column-gutter-width;
+    }
+}
